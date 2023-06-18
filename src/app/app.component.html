@@ -3,7 +3,7 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <img src="../assets/images/Logo.svg" alt="logo" />
+        <img src="./assets/images/Logo.svg" alt="logo" />
       </div>
       <nav class="menu">
         <ul class="menu-list">
@@ -29,7 +29,7 @@
           <button class="button" id="main-action-button" (click)="scrollTo(products)">Смотреть меню</button>
         </div>
       </div>
-      <img src="../assets/images/main_burger.svg" alt="" class="main-image" />
+      <img src="./assets/images/main_burger.svg" alt="" class="main-image" />
     </div>
   </section>
 </section>
@@ -40,7 +40,7 @@
     <div class="why-items">
       <div class="why-item">
         <img
-          src="../assets/images/burger.svg"
+          src="./assets/images/burger.svg"
           alt="burger"
           class="why-item-image"
         />
@@ -52,7 +52,7 @@
         </p>
       </div>
       <div class="why-item">
-        <img src="../assets/images/meat.svg" alt="burger" class="why-item-image" />
+        <img src="./assets/images/meat.svg" alt="burger" class="why-item-image" />
         <div class="why-item-title">Мраморная говядина</div>
         <p class="why-item-text">
           Для наших бургеров мы используем отборную 100% мраморную говядину,
@@ -62,7 +62,7 @@
       </div>
       <div class="why-item">
         <img
-          src="../assets/images/food truck.svg"
+          src="./assets/images/food truck.svg"
           alt="truck"
           class="why-item-image"
         />
@@ -83,7 +83,7 @@
     <div class="products-items">
       <div class="products-item" *ngFor="let product of productsData">
         <div class="products-item-image">
-          <img src="../assets/images/{{product.image}}" alt="burger" />
+          <img src="{{product.image}}" alt="burger" />
         </div>
         <div class="products-item-title">{{product.title}}</div>
         <p class="products-item-text">
@@ -123,7 +123,7 @@
 <section class="order" id="order" #order>
   <div class="container">
     <div class="order-title common-title">оформление заказа</div>
-    <img src="../assets/images/order_image.png " alt="" class="order-image" />
+    <img src="./assets/images/order_image.png " alt="" class="order-image" />
     <div class="order-form">
       <div class="order-form-text">
         Заполните все данные и наш менеджер свяжется с вами для
@@ -149,7 +149,7 @@
 <footer class="footer">
   <div class="container">
     <div class="logo">
-      <img src="../assets/images/Logo.svg" alt="">
+      <img src="./assets/images/Logo.svg" alt="">
     </div>
     <div class="right">Все права защищены</div>
   </div>
